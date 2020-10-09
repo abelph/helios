@@ -1,0 +1,3 @@
+Module is not using a supported test framework (probably not JUnit).
+
+com.spotify:helios-service-registration:0.9.0-SNAPSHOT

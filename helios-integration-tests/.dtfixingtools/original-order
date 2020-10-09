@@ -1,0 +1,5 @@
+com.spotify.helios.HeliosIT.test
+com.spotify.helios.HeliosSoloIT.testTcpHealthcheck
+com.spotify.helios.HeliosSoloIT.testServiceDiscovery
+com.spotify.helios.HeliosSoloIT.testWhitelistCaps
+com.spotify.helios.HeliosSoloIT.testHttpHealthcheck

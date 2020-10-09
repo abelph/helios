@@ -1,0 +1,8 @@
+language: java
+jdk: oraclejdk8
+dist: trusty
+
+script:
+  - mvn testrunner:testplugin -Ddetector.detector_type=random-class-method -Ddt.randomize.rounds=10 -Ddt.detector.original_order.all_must_pass=false
+after_script:
+  - echo "Script is Done!"

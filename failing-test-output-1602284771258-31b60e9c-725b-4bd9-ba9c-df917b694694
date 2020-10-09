@@ -1,0 +1,14 @@
+Test failed in initialization: com.spotify.helios.client.AuthenticatingHttpConnectorTest.testAccessToken_UsesAgentIdentities
+[ERROR] Encountered exception while initializing JUnitTest for 'com.spotify.helios.client.AuthenticatingHttpConnectorTest.testAccessToken_ResponseIsOk'
+Exception in thread "main" java.lang.NoClassDefFoundError: Could not initialize class com.spotify.helios.client.AuthenticatingHttpConnectorTest
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at edu.illinois.cs.testrunner.execution.JUnitTest.<init>(JUnitTest.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.skipMissing(JUnitTestExecutor.java:89)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:39)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
